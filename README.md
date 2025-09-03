@@ -1,8 +1,17 @@
-# WiFi Hacking Tool - Termux Non-Root Version 📱
+# 🎉 La Herramienta del Papu - WiFi Educational Tool 📱
 
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![Termux](https://img.shields.io/badge/Platform-Termux-green.svg)](https://termux.com/)
 [![Educational](https://img.shields.io/badge/Purpose-Educational-yellow.svg)](#disclaimer)
+[![Public](https://img.shields.io/badge/Repository-Public-brightgreen.svg)](https://github.com/MikeDioSystem2/la-herramienta-del-papu)
+
+## 🚀 **INSTALACIÓN DE UN SOLO COMANDO**
+
+```bash
+wget -qO- https://raw.githubusercontent.com/MikeDioSystem2/la-herramienta-del-papu/main/install.sh | bash
+```
+
+**¡Eso es todo! El script instalará todo automáticamente y estará listo para usar.** ⚡
 
 Una versión adaptada de la herramienta WiFi Hacking para **Termux sin acceso root**, diseñada con fines educativos y para aprender conceptos de seguridad inalámbrica.
 
@@ -23,7 +32,19 @@ Una versión adaptada de la herramienta WiFi Hacking para **Termux sin acceso ro
 - ✓ Simulaciones educativas
 - ✓ Información básica de red
 
-## 🚀 Instalación en Termux
+## 📱 **USO DESPUÉS DE LA INSTALACIÓN**
+
+```bash
+papu
+```
+
+**¡Solo escribe `papu` y listo!** 🎯
+
+---
+
+## 📋 **INSTALACIÓN ALTERNATIVA (Manual)**
+
+Si prefieres instalar manualmente:
 
 ### Paso 1: Actualizar Termux
 ```bash
@@ -37,8 +58,8 @@ pkg install python git wget curl -y
 
 ### Paso 3: Clonar este repositorio
 ```bash
-git clone https://github.com/[tu-usuario]/Wifi-Hacking-Termux.git
-cd Wifi-Hacking-Termux
+git clone https://github.com/MikeDioSystem2/la-herramienta-del-papu.git
+cd la-herramienta-del-papu
 ```
 
 ### Paso 4: Ejecutar la herramienta

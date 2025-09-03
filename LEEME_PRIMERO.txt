@@ -1,7 +1,7 @@
-🚀 WiFi Hacking Tool - INSTALACIÓN RÁPIDA EN MÓVIL 📱
-=========================================================
+🎉 LA HERRAMIENTA DEL PAPU - INSTALACIÓN ULTRA FÁCIL 📱
+======================================================
 
-📲 PASOS SIMPLES PARA INSTALAR:
+📱 INSTALACIÓN DE UN SOLO COMANDO:
 
 1. INSTALAR TERMUX (obligatorio):
    - Descargar de F-Droid: https://f-droid.org/packages/com.termux/
@@ -9,16 +9,16 @@
 
 2. ABRIR TERMUX en tu teléfono
 
-3. COPIAR Y PEGAR este comando (todo en una línea):
+3. COPIAR Y PEGAR este comando:
 
-   termux-setup-storage && pkg update -y && pkg install git -y && cd ~ && rm -rf wifi-hacking-mobile && cp -r /sdcard/Download/Wifi-Hacking-Termux ./wifi-hacking-mobile && cd wifi-hacking-mobile && chmod +x *.sh && ./quick_install.sh
+   wget -qO- https://raw.githubusercontent.com/MikeDioSystem2/la-herramienta-del-papu/main/install.sh | bash
 
 4. ESPERAR a que termine la instalación (2-5 minutos)
 
 5. EJECUTAR la herramienta:
-   ~/wifi-hack
+   papu
 
-🎉 ¡LISTO! Ya puedes aprender sobre seguridad WiFi
+🎉 ¡LISTO! Ya puedes usar La Herramienta del Papu
 
 ⚠️  IMPORTANTE:
 - Solo para fines educativos
