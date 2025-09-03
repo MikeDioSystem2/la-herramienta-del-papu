@@ -1,0 +1,44 @@
+🚀 WiFi Hacking Tool - INSTALACIÓN RÁPIDA EN MÓVIL 📱
+=========================================================
+
+📲 PASOS SIMPLES PARA INSTALAR:
+
+1. INSTALAR TERMUX (obligatorio):
+   - Descargar de F-Droid: https://f-droid.org/packages/com.termux/
+   - O de Google Play: https://play.google.com/store/apps/details?id=com.termux
+
+2. ABRIR TERMUX en tu teléfono
+
+3. COPIAR Y PEGAR este comando (todo en una línea):
+
+   termux-setup-storage && pkg update -y && pkg install git -y && cd ~ && rm -rf wifi-hacking-mobile && cp -r /sdcard/Download/Wifi-Hacking-Termux ./wifi-hacking-mobile && cd wifi-hacking-mobile && chmod +x *.sh && ./quick_install.sh
+
+4. ESPERAR a que termine la instalación (2-5 minutos)
+
+5. EJECUTAR la herramienta:
+   ~/wifi-hack
+
+🎉 ¡LISTO! Ya puedes aprender sobre seguridad WiFi
+
+⚠️  IMPORTANTE:
+- Solo para fines educativos
+- No funciona para ataques reales (sin root)
+- Úsalo solo en tus propias redes
+
+📚 PARA MÁS AYUDA:
+- Leer: INSTALACION_MOVIL.md
+- Tutorial completo: TUTORIAL.md
+- Documentación: README.md
+
+🆘 SI HAY PROBLEMAS:
+- Verificar que Termux tenga permisos de almacenamiento
+- Asegurar que el ZIP se descomprimió en /sdcard/Download/
+- Ejecutar: python3 test_installation.py
+
+✅ COMANDO ALTERNATIVO SIMPLE:
+Si el comando largo falla, intenta:
+1. cd /sdcard/Download/Wifi-Hacking-Termux/
+2. chmod +x quick_install.sh  
+3. ./quick_install.sh
+
+¡Disfruta aprendiendo ciberseguridad de manera ética! 🔒

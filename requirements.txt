@@ -1,0 +1,15 @@
+# WiFi Hacking Tool - Termux Version
+# Python package requirements
+
+# Core networking and security libraries
+requests>=2.25.1
+colorama>=0.4.4
+scapy>=2.4.5
+
+# Optional packages that may be useful
+# Note: Some may not be available on all Termux installations
+hashlib-compat>=1.0.0  # For hash operations
+cryptography>=3.4.8    # For cryptographic operations
+
+# Development and debugging (optional)
+ipython>=7.23.1        # Enhanced interactive Python shell
